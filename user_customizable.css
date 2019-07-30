@@ -1,0 +1,75 @@
+box
+{
+	background-color:rgba(0,0,0,0.3);
+}
+codepane
+{
+	background-color:white;
+		
+}
+codetitle
+{
+	background-color:rgba(0,0,0,0);
+	height:10%;
+	width:90%;
+	display:block;
+	line-height:5vh;
+	text-align:center;
+	font-size:2vh;
+	font-weight:700;
+	font-family: Arial, Helvetica, sans-serif;
+}
+submit
+{
+	background-color:rgba(1,11,111,0.1);
+	height:5vh;
+	width:10vw;
+	line-height:5vh;
+	display:block;
+}
+codecontent
+{
+	background-color:rgba(0,0,0,0);
+	height:89%;
+	width:90%;
+	padding-left:2.8vw;
+	overflow-Y:scroll;
+	display:inline-block;
+}
+pre{
+    white-space: pre-wrap;
+    background: #EEE;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+codecontent1
+{
+	background-color:rgba(0,0,0,0.1);
+	height:90%;
+	width:45%;
+	z-index:10;
+	display:inline-block;
+	top:10%;
+	left:2.5%;
+	pointer-events: none;
+	position:absolute;
+}
+.cpane
+{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+outputpane
+{
+	background-color:white;
+}
+.panes
+{
+	height:100vh;
+	width:50%;
+	float:left;
+	display:block;
+}
